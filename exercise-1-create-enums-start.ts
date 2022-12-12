@@ -44,8 +44,8 @@ const countries: Country[] = [
 // Create a string enum named `LanguageStatus`. Use it to replace the
 // string values for the `status` properties in the objects below.
 enum LanguageStatus {
-  primary,
-  secondary,
+  primary = "primary",
+  secondary = "secondary",
 }
 
 interface Language {
